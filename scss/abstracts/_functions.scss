@@ -1,5 +1,10 @@
-@if (max-width:700px){
+@if (max-width:768px){
     .desktop-layout {
         display: none;
+    }}
+    @else {
+        .desktop-layout {
+            display:block;
+        }
     }
-    }
+    

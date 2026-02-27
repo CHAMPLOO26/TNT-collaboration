@@ -8,7 +8,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
-      href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Kumbh+Sans:wght,YOPQ@100..900,300&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Quicksand:wght@300..700&family=Roboto+Mono:ital,wght@0,100..700;1,100..700&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
+      href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Poppins:ital,wght@0,100..900;1,100..900&display=swap"
       rel="stylesheet"
     />
   </head>
@@ -21,48 +21,84 @@
             <ul>
               <li>Home</li>
               <li>About Us</li>
-              <li>Servises</li>
-              <li>Contact</li>
+              <li>Services</li> <li>Contact</li>
             </ul>
             <div class="right-nav">
                 <button class="darkmode-switch"><a><img src="assets/moonlogo-navbar.png" alt=""></a></button>
                 <button class="blue"><a href="#">Sign In</a></button>
                 <button class="white">Free Trial</button>
             </div>
-        </nav>
-    </div>
-    <div class="mobile-layout">
-        <nav>
-            <img class="Ehya-logo" src="assets/mobile-navbar-logo.png" alt="Ehya">          
-            <input type="checkbox" id="menu-checker" style="display: none;"> 
-            <div class="left-nav">
-                <button class="darkmode"><a href="#"><img src="assets/mobile-navbar-moonlogo.png" alt="darkmode"></a></button> 
-                <label for="menu-checker" class="menu-open-btn">
-                    <img src="assets/mobile-navbar-menulogo.png" alt="menu">
-                </label>
-            </div>
-    
-            <div class="menu-overlay">
-                <div class="menu-header">
-                    <img class="Ehya-logo" src="assets/mobile-navbar-logo.png" alt="Ehya">
-                    <label for="menu-checker" class="close-btn">&times;</label>
-                </div>
-                
-                <ul class="nav-links">
-                    <li><a href="#">Home</a></li>
-                    <li><a href="#">About US</a></li>
-                    <li><a href="#">Services</a></li>
-                    <li><a href="#">Contact</a></li>
-                    <li><a href="#" class="signin">Sign In</a></li>
-                </ul>
-                
-                <button class="free-trial">Free Trial</button>
-            </div>
           </nav>
+        </div>
+
+        <div class="mobile-layout">
+            <nav>
+                <img class="Ehya-logo" src="assets/mobile-navbar-logo.png" alt="Ehya">          
+                <input type="checkbox" id="menu-checker" style="display: none;"> 
+                <div class="left-nav">
+                    <button class="darkmode"><a href="#"><img src="assets/mobile-navbar-moonlogo.png" alt="darkmode"></a></button> 
+                    <label for="menu-checker" class="menu-open-btn">
+                        <img src="assets/mobile-navbar-menulogo.png" alt="menu">
+                    </label>
+                </div>
+        
+                <div class="menu-overlay">
+                    <div class="menu-header">
+                        <img class="Ehya-logo" src="assets/mobile-navbar-logo.png" alt="Ehya">
+                        <label for="menu-checker" class="close-btn">&times;</label>
+                    </div>
+                    
+                    <ul class="nav-links">
+                        <li><a href="#">Home</a></li>
+                        <li><a href="#">About US</a></li>
+                        <li><a href="#">Services</a></li>
+                        <li><a href="#">Contact</a></li>
+                        <li><a href="#" class="signin">Sign In</a></li>
+                    </ul>
+                    
+                    <button class="free-trial">Free Trial</button>
+                </div>
+            </nav>
         </div>
       </header>
 
       <main>
+        <section class="hero-card">
+          <div class="text-box">
+              <h1>CareerPath Now</h1>
+              <p>CareerPathNow is a renowned career counselling organization that helps individuals make informed decisions about their career paths.</p>
+              <div class="buttons-box">
+                  <button class="blue">Get Started</button>
+                  <button class="white"><img src="assets/Polygon-3.png" alt="Polygon-3">Learn More</button>
+                  <img class="satisfied-students" src="assets/Frame 985.png" alt="">
+              </div>
+          </div> 
+          
+          <div class="girl-pic">
+              <div class="small-cards">
+                  <ul>
+                      <li>Our Happy Users</li>
+                      <li>200+ Online User</li>
+                      <li><img src="assets/plus.png" alt=""></li>
+                  </ul>
+                  <ul>
+                      <li>27K</li>
+                      <li>Member Joined</li>
+                      <li><img class="members" src="assets/smallcards group.png" alt=""></li>
+                  </ul>
+                  <ul>
+                      <li>27K</li>
+                      <li>Member Joined</li>
+                      <li><img class="members" src="assets/smallcards group.png" alt=""></li>
+                  </ul>
+              </div>
+              <div class="background-pic">
+                  <img class="background" src="assets/frame for girlpic.png">
+                  <img class="girl" src="assets/girlpic.png" alt="" >
+              </div>
+          </div>
+        </section>
+
         <section class="about-us">
           <h2>About US</h2>
           <p>
@@ -98,132 +134,44 @@
             <div class="circle"></div>
           </div>
         </section>
+
         <section class="services">
           <div class="services-rightside-container">
             <h2>Our Services</h2>
             <p>
               Teachers don’t get lost in the grid view and have a dedicated
-              Podium space. Teachers don’t get lost in the grid view and have a
-              dedicated Podium space.
+              Podium space.
             </p>
             <div class="bag-icons-container">
-              <img
-                class="bag-icon"
-                src="./assets/bag-icon.png"
-                alt="bag icon"
-              />
+              <img class="bag-icon" src="./assets/bag-icon.png" alt="bag icon" />
               <p class="bag-p">Personality Assessment</p>
             </div>
             <div class="bag-icons-container">
-              <img
-                class="bag-icon"
-                src="./assets/bag-icon.png"
-                alt="bag icon"
-              />
+              <img class="bag-icon" src="./assets/bag-icon.png" alt="bag icon" />
               <p class="bag-p">Skill Evaluation</p>
             </div>
             <div class="bag-icons-container">
-              <img
-                class="bag-icon"
-                src="./assets/bag-icon.png"
-                alt="bag icon"
-              />
+              <img class="bag-icon" src="./assets/bag-icon.png" alt="bag icon" />
               <p class="bag-p">Career workshop</p>
             </div>
           </div>
 
           <div class="services-pictures-container">
             <img class="dots" src="./assets/Frame 1010.png" alt="dots" />
-            <img
-              class="dots-desktop"
-              src="./assets/Frame 1010 (1).png"
-              alt="dots-desktop"
-            />
-            <img
-              class="services-picture-1"
-              src="./assets/Mask Group.png"
-              alt="services-picture"
-            />
-            <img
-              class="services-picture-1-desktop"
-              src="./assets/Mask Group (1).png"
-              alt="services-picture-desktop"
-            />
-            <img
-              class="services-picture-2"
-              src="./assets/Group 66.png"
-              alt="services-picture"
-            />
-            <img
-              class="services-picture-2-desktop"
-              src="./assets/Group 66 (1).png"
-              alt="services-picture-desktop"
-            />
-            <img
-              class="services-picture-3"
-              src="./assets/Group 67.png"
-              alt="services-picture"
-            />
-            <img
-              class="services-picture-3-desktop"
-              src="./assets/Group 67 (1).png"
-              alt="services-picture-desktop"
-            />
+            <img class="dots-desktop" src="./assets/Frame 1010 (1).png" alt="dots-desktop" />
+            <img class="services-picture-1" src="./assets/Mask Group.png" alt="services-picture" />
+            <img class="services-picture-1-desktop" src="./assets/Mask Group (1).png" alt="services-picture-desktop" />
+            <img class="services-picture-2" src="./assets/Group 66.png" alt="services-picture" />
+            <img class="services-picture-2-desktop" src="./assets/Group 66 (1).png" alt="services-picture-desktop" />
+            <img class="services-picture-3" src="./assets/Group 67.png" alt="services-picture" />
+            <img class="services-picture-3-desktop" src="./assets/Group 67 (1).png" alt="services-picture-desktop" />
           </div>
           <div class="services-ball"></div>
           <button>Get Started</button>
         </section>
       </main>
 
-      <footer></footer>
-    </div>
-<<<<<<< HEAD
-    </header>
-
-    <main>
-        <section class="hero-card">
-            <div class="text-box">
-                <h1>CareerPath Now</h1>
-                <p>CareerPathNow is a renowned career counselling organization that helps individuals make informed decisions about their career paths.</p>
-                <div class="buttons-box">
-                    <button class="blue">Get Started</button>
-                    <button class="white"><img src="assets/Polygon-3.png" alt="Polygon-3">Learn More</button>
-                    <img class="satisfied-students" src="assets/Frame 985.png" alt="">
-                </div>
-            </div>   
-            
-                <div class="girl-pic">
-                    <div class="small-cards">
-                    <ul>
-                        <li>Our Happy Users</li>
-                        <li>200+ Online User</li>
-                        <li><img src="assets/plus.png" alt=""></li>
-                    </ul>
-                    <ul>
-                        <li>27K</li>
-                        <li>Member Joined</li>
-                        <li><img class="members" src="assets/smallcards group.png" alt=""></li>
-                    </ul>
-                    <ul>
-                        <li>27K</li>
-                        <li>Member Joined</li>
-                        <li><img class="members" src="assets/smallcards group.png" alt=""></li>
-                    </ul>
-                    </div>
-                    <div class="background-pic">
-                        <img class="background" src="assets/frame for girlpic.png">
-                        <img class="girl" src="assets/girlpic.png" alt="" >
-                    </div>
-                </div>
-            
-        </section>
-    </main>
-
-    <footer></footer>
-</div>
-</body>
+      <footer>
+          </footer>
+    </div> </body>
 </html>
-=======
-  </body>
-</html>
->>>>>>> f88f68e0bae6131da3646bd6a3e3c0f13066a61f
