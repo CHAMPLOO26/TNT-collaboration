@@ -1,71 +1,54 @@
-<<<<<<< HEAD
-@mixin flexbox{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-wrap: wrap;
-}
-
-@mixin logo{
-    width: 24px;
-    height: 24px;
-    align-self: center;
-=======
 @mixin button-get-started-mobile() {
-  width: 105px;
-  height: 37px;
-  border-radius: 8px;
-  background-color: rgba(5, 42, 68, 1);
-  color: rgba(255, 255, 255, 1);
-  font-weight: 500;
-  font-size: 14px;
-  line-height: 100%;
-  letter-spacing: 0%;
-}
-
-@mixin button-get-started-desktop() {
-  width: 176px;
-  height: 54px;
-  border-radius: 8px;
-  background-color: rgba(5, 42, 68, 1);
-  color: rgba(255, 255, 255, 1);
-  font-weight: 600;
-  font-size: 16px;
-  line-height: 100%;
-  letter-spacing: 0%;
-}
-
-@mixin service-about-us-h2() {
-  text-align: center;
-  color: rgba(24, 59, 86, 1);
-  line-height: 36px;
-  letter-spacing: 0.2px;
-  font-weight: 400;
-  margin-bottom: 30px;
-}
-
-@mixin service-about-us-h2-desktop() {
-  font-size: 42px;
-  text-align: center;
-  line-height: 60px;
-  letter-spacing: 0%;
-  font-weight: 600;
-  color: rgba(0, 0, 0, 1);
-}
-
-@mixin service-about-us-p {
-  text-align: center;
-  font-size: 16px;
-  font-weight: 400;
-  line-height: 28px;
-  color: rgba(0, 0, 0, 1);
-}
-
-@mixin service-about-us-p-desktop {
-  font-size: 18px;
-  font-weight: 400;
-  line-height: 200%;
-  letter-spacing: 0%;
-  color: rgba(0, 0, 0, 1);
->>>>>>> f88f68e0bae6131da3646bd6a3e3c0f13066a61f
-}
+    width: 105px;
+    height: 37px;
+    border-radius: 8px;
+    background-color: rgba(5, 42, 68, 1);
+    color: rgba(255, 255, 255, 1);
+    font-weight: 500;
+    font-size: 14px;
+    border: none;
+    cursor: pointer;
+  }
+  
+  @mixin button-get-started-desktop() {
+    width: 176px;
+    height: 54px;
+    border-radius: 8px;
+    background-color: rgba(5, 42, 68, 1);
+    color: rgba(255, 255, 255, 1);
+    font-weight: 600;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+  }
+  
+  @mixin service-about-us-h2() {
+    text-align: center;
+    color: rgba(24, 59, 86, 1);
+    font-size: 28px;
+    font-weight: 600;
+    margin-bottom: 20px;
+  }
+  
+  @mixin service-about-us-h2-desktop() {
+    font-size: 42px;
+    text-align: center;
+    font-weight: 700;
+    color: rgba(0, 0, 0, 1);
+    margin-bottom: 30px;
+  }
+  
+  @mixin service-about-us-p() {
+    text-align: center;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.6;
+    color: black;
+  }
+  
+  @mixin service-about-us-p-desktop() {
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 1.8;
+    color:black;
+  }

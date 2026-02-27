@@ -11,8 +11,10 @@
 @use "./scss/themes/theme-dark";
 @use "./scss/themes/theme-light";
 @use "./scss/layout/hero-section";
+@use "./scss/layout/about-us";
+@use "./scss/layout/services";
 
-@media (min-width:700px) {
+@media (min-width:768px) {
 .mobile-layout {
     display: none;
 }
