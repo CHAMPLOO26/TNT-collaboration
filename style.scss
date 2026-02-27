@@ -10,6 +10,7 @@
 @use "./scss/layout/navigation";
 @use "./scss/themes/theme-dark";
 @use "./scss/themes/theme-light";
+<<<<<<< HEAD
 @use "./scss/layout/hero-section";
 
 @media (min-width:700px) {
@@ -24,3 +25,7 @@
 }
 
 }
+=======
+@use "./scss/layout/services";
+@use "./scss/layout/about-us";
+>>>>>>> f88f68e0bae6131da3646bd6a3e3c0f13066a61f
