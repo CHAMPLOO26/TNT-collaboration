@@ -1,0 +1,12 @@
+@mixin flexbox{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+@mixin logo{
+    width: 24px;
+    height: 24px;
+    align-self: center;
+}

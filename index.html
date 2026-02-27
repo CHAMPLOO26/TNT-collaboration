@@ -12,8 +12,9 @@
 <body>
     <div class="web">
     <header>
+        <!--here starts desktop version-->
         <div class="desktop-layout">
-        <nav>
+        <nav class="desktop-nav">
             <p>CareerPathNow</p>
             <ul>
                 <li>Home</li>
@@ -22,24 +23,81 @@
                 <li>Contact</li>
             </ul>
             <div class="right-nav">
-                <img src="assets/sun-logo-nav.svg" alt="">
-                <a href="#">Sign In</a>
-                <button>Free Trial</button>
+                <button class="darkmode-switch"><a><img src="assets/moonlogo-navbar.png" alt=""></a></button>
+                <button class="blue"><a href="#">Sign In</a></button>
+                <button class="white">Free Trial</button>
             </div>
         </nav>
     </div>
     <div class="mobile-layout">
         <nav>
-            <img src="assets/mobile-navbar-logo.png" alt="Ehya">
+            <img class="Ehya-logo" src="assets/mobile-navbar-logo.png" alt="Ehya">          
+            <input type="checkbox" id="menu-checker" style="display: none;"> 
             <div class="left-nav">
-                <button><img src="assets/mobile-navbar-moonlogo.png" alt="darkmode"></button>
-                <button><img src="assets/mobile-navbar-menulogo.png" alt="menu"></button>
+                <button class="darkmode"><a href="#"><img src="assets/mobile-navbar-moonlogo.png" alt="darkmode"></a></button> 
+                <label for="menu-checker" class="menu-open-btn">
+                    <img src="assets/mobile-navbar-menulogo.png" alt="menu">
+                </label>
+            </div>
+    
+            <div class="menu-overlay">
+                <div class="menu-header">
+                    <img class="Ehya-logo" src="assets/mobile-navbar-logo.png" alt="Ehya">
+                    <label for="menu-checker" class="close-btn">&times;</label>
+                </div>
+                
+                <ul class="nav-links">
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">About US</a></li>
+                    <li><a href="#">Services</a></li>
+                    <li><a href="#">Contact</a></li>
+                    <li><a href="#" class="signin">Sign In</a></li>
+                </ul>
+                
+                <button class="free-trial">Free Trial</button>
             </div>
         </nav>
     </div>
     </header>
 
-    <main></main>
+    <main>
+        <section class="hero-card">
+            <div class="text-box">
+                <h1>CareerPath Now</h1>
+                <p>CareerPathNow is a renowned career counselling organization that helps individuals make informed decisions about their career paths.</p>
+                <div class="buttons-box">
+                    <button class="blue">Get Started</button>
+                    <button class="white"><img src="assets/Polygon-3.png" alt="Polygon-3">Learn More</button>
+                    <img class="satisfied-students" src="assets/Frame 985.png" alt="">
+                </div>
+            </div>   
+            
+                <div class="girl-pic">
+                    <div class="small-cards">
+                    <ul>
+                        <li>Our Happy Users</li>
+                        <li>200+ Online User</li>
+                        <li><img src="assets/plus.png" alt=""></li>
+                    </ul>
+                    <ul>
+                        <li>27K</li>
+                        <li>Member Joined</li>
+                        <li><img class="members" src="assets/smallcards group.png" alt=""></li>
+                    </ul>
+                    <ul>
+                        <li>27K</li>
+                        <li>Member Joined</li>
+                        <li><img class="members" src="assets/smallcards group.png" alt=""></li>
+                    </ul>
+                    </div>
+                    <div class="background-pic">
+                        <img class="background" src="assets/frame for girlpic.png">
+                        <img class="girl" src="assets/girlpic.png" alt="" >
+                    </div>
+                </div>
+            
+        </section>
+    </main>
 
     <footer></footer>
 </div>

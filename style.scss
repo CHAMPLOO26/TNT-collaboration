@@ -10,5 +10,17 @@
 @use "./scss/layout/navigation";
 @use "./scss/themes/theme-dark";
 @use "./scss/themes/theme-light";
-@use "icons";
+@use "./scss/layout/hero-section";
 
+@media (min-width:700px) {
+.mobile-layout {
+    display: none;
+}
+.desktop-layout {
+    display: block;
+}
+.satisfied-students {
+    display: block;
+}
+
+}

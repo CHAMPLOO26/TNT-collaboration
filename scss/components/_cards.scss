@@ -1,0 +1,17 @@
+.small-cards ul{
+    background-color: white;
+    box-shadow: 0.74px 1.48px 14.03px 0px rgba(0, 0, 0, 0.08);
+    width: 60px;
+    height: 45px;
+    border-radius: 6px;
+    font-size: 6px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 5px;
+    & .members{
+        width: 33px;
+        height: 10px;
+    }
+}
